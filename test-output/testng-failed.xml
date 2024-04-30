@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParaSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.atlassian.com/software/jira"/>
+    <classes>
+      <class name="Practice.ParallelTesting">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Practice.ParallelTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.atlassian.com/software/jira"/>
+    <classes>
+      <class name="Practice.ParallelTesting">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Practice.ParallelTesting -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.atlassian.com/software/jira"/>
+    <classes>
+      <class name="Practice.ParallelTesting">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Practice.ParallelTesting -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [ParaSuite] -->

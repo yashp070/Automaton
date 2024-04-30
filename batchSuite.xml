@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="learnTestNG.Arguments"/>
+      <class name="learnTestNG.RunTestNGWithoutMainMethod"/>
+      <class name="learnTestNG.UseOfBefore_AfterClass"/>
+      <class name="learnTestNG.PriorityArgument"/>
+      <class name="learnTestNG.DemoPreAndPostConditionThroughAnnotations"/>
+      <class name="learnTestNG.ExecuteWithInvocationCountArgument"/>
+      <class name="learnTestNG.BeforeMethodAfterMethodAnnotation"/>
+      <class name="learnTestNG.DisableMethodFromExecution"/>
+      <class name="learnTestNG.Group1"/>
+      <class name="learnTestNG.CreateDependenciesBetweenTestCases"/>
+      <class name="learnTestNG.Group3"/>
+      <class name="learnTestNG.Group2"/>
+      <class name="learnTestNG.UsingTestAnnotationWithoutPriority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
